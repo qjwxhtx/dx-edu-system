@@ -1,0 +1,307 @@
+2025-10-28T10:21:45.230+08:00  WARN 696 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:21:46.004+08:00  WARN 696 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:21:46.007+08:00  WARN 696 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:21:46.058+08:00  WARN 696 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:21:46.071+08:00  WARN 696 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:21:46.073+08:00  WARN 696 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:21:48.178+08:00  WARN 696 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:21:48.178+08:00  WARN 696 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:21:48.441+08:00  WARN 696 --- [dx-sample-project] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teacherJobHandler': Injection of resource dependencies failed
+2025-10-28T10:21:48.491+08:00  WARN 696 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:21:48.491+08:00  WARN 696 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:21:48.492+08:00  WARN 696 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:21:48.491+08:00  WARN 696 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:21:48.492+08:00  WARN 696 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:21:48.492+08:00  WARN 696 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:22:53.764+08:00  WARN 32452 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:22:54.512+08:00  WARN 32452 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:22:54.516+08:00  WARN 32452 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:22:54.567+08:00  WARN 32452 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:22:54.581+08:00  WARN 32452 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:22:54.583+08:00  WARN 32452 --- [dx-sample-project] [main] trationDelegate$BeanPostProcessorChecker : Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2025-10-28T10:22:56.667+08:00  WARN 32452 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:22:56.668+08:00  WARN 32452 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:22:56.930+08:00  WARN 32452 --- [dx-sample-project] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teacherJobHandler': Injection of resource dependencies failed
+2025-10-28T10:22:56.983+08:00  WARN 32452 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:22:56.983+08:00  WARN 32452 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:22:56.983+08:00  WARN 32452 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:22:56.983+08:00  WARN 32452 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:22:56.983+08:00  WARN 32452 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:22:56.983+08:00  WARN 32452 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:25:51.630+08:00  WARN 32656 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:25:54.716+08:00  WARN 32656 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:25:54.717+08:00  WARN 32656 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:25:55.095+08:00  WARN 32656 --- [dx-sample-project] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teacherJobHandler': Injection of resource dependencies failed
+2025-10-28T10:25:56.118+08:00  WARN 32656 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:25:56.119+08:00  WARN 32656 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:25:56.120+08:00  WARN 32656 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:25:56.120+08:00  WARN 32656 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:25:56.121+08:00  WARN 32656 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:25:56.121+08:00  WARN 32656 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:28:55.459+08:00  WARN 19276 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:28:58.527+08:00  WARN 19276 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:28:58.528+08:00  WARN 19276 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:28:58.936+08:00  WARN 19276 --- [dx-sample-project] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teacherJobHandler': Injection of resource dependencies failed
+2025-10-28T10:28:59.959+08:00  WARN 19276 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:28:59.959+08:00  WARN 19276 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:28:59.960+08:00  WARN 19276 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:28:59.960+08:00  WARN 19276 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:28:59.960+08:00  WARN 19276 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:28:59.960+08:00  WARN 19276 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:30:59.095+08:00  WARN 32232 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:31:02.045+08:00  WARN 32232 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:31:02.047+08:00  WARN 32232 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:31:04.927+08:00  WARN 32232 --- [dx-sample-project] [lettuce-nioEventLoop-4-1] i.l.c.c.t.DefaultClusterTopologyRefresh  : Unable to connect to [127.0.0.1/<unresolved>:6379]: Connection refused: no further information: /127.0.0.1:6379
+2025-10-28T10:31:04.935+08:00  WARN 32232 --- [dx-sample-project] [boundedElastic-1] o.s.b.a.d.r.RedisReactiveHealthIndicator : Redis health check failed
+
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1849) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1780) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1582) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.lambda$getConnection$0(LettuceConnectionFactory.java:1562) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.doInLock(LettuceConnectionFactory.java:1523) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1559) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:1270) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveClusterConnection(LettuceConnectionFactory.java:1161) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:1141) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:118) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:67) ~[reactor-core-3.6.10.jar:3.6.10]
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:228) ~[reactor-core-3.6.10.jar:3.6.10]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.6.10.jar:3.6.10]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.6.10.jar:3.6.10]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:104) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1778) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	... 18 common frames omitted
+Caused by: io.lettuce.core.RedisException: Cannot obtain initial Redis Cluster topology
+	at io.lettuce.core.cluster.RedisClusterClient.lambda$getPartitions$0(RedisClusterClient.java:332) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.cluster.RedisClusterClient.get(RedisClusterClient.java:965) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.cluster.RedisClusterClient.getPartitions(RedisClusterClient.java:332) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnectionAsync(ClusterConnectionProvider.java:100) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnectionAsync(ClusterConnectionProvider.java:44) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionProvider.getConnection(LettuceConnectionProvider.java:53) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$getConnection$0(LettucePoolingConnectionProvider.java:93) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:71) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:566) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:306) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:233) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:99) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	... 19 common frames omitted
+Caused by: io.lettuce.core.cluster.topology.DefaultClusterTopologyRefresh$CannotRetrieveClusterPartitions: Cannot retrieve cluster partitions from [redis://**************@127.0.0.1?timeout=5s]
+
+Details:
+	[redis://**************@127.0.0.1?timeout=5s]: Connection refused: no further information: /127.0.0.1:6379
+
+	Suppressed: io.lettuce.core.RedisConnectionException: Unable to connect to [127.0.0.1/<unresolved>:6379]: Connection refused: no further information: /127.0.0.1:6379
+		at io.lettuce.core.cluster.topology.DefaultClusterTopologyRefresh.lambda$openConnections$12(DefaultClusterTopologyRefresh.java:347) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+		at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863) ~[na:na]
+		at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841) ~[na:na]
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+		at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162) ~[na:na]
+		at io.lettuce.core.AbstractRedisClient.lambda$initializeChannelAsync0$6(AbstractRedisClient.java:454) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:326) ~[netty-transport-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:342) ~[netty-transport-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+	Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+	Caused by: java.net.ConnectException: Connection refused: no further information
+		at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+		at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+		at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+		at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+		at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+
+2025-10-28T10:32:15.464+08:00  WARN 32232 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:32:15.464+08:00  WARN 32232 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:32:15.464+08:00  WARN 32232 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:32:15.464+08:00  WARN 32232 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:32:15.464+08:00  WARN 32232 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:32:15.464+08:00  WARN 32232 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:32:19.463+08:00  WARN 32732 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:32:22.454+08:00  WARN 32732 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:32:22.455+08:00  WARN 32732 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:32:25.455+08:00  WARN 32732 --- [dx-sample-project] [boundedElastic-1] o.s.b.a.d.r.RedisReactiveHealthIndicator : Redis health check failed
+
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1849) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1780) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1582) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.lambda$getConnection$0(LettuceConnectionFactory.java:1562) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.doInLock(LettuceConnectionFactory.java:1523) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1559) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedReactiveConnection(LettuceConnectionFactory.java:1270) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveClusterConnection(LettuceConnectionFactory.java:1161) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:1141) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getReactiveConnection(LettuceConnectionFactory.java:118) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at reactor.core.publisher.MonoSupplier.call(MonoSupplier.java:67) ~[reactor-core-3.6.10.jar:3.6.10]
+	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:228) ~[reactor-core-3.6.10.jar:3.6.10]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.6.10.jar:3.6.10]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.6.10.jar:3.6.10]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:104) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1778) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	... 18 common frames omitted
+Caused by: io.lettuce.core.RedisException: Cannot obtain initial Redis Cluster topology
+	at io.lettuce.core.cluster.RedisClusterClient.lambda$getPartitions$0(RedisClusterClient.java:332) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.cluster.RedisClusterClient.get(RedisClusterClient.java:965) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.cluster.RedisClusterClient.getPartitions(RedisClusterClient.java:332) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnectionAsync(ClusterConnectionProvider.java:100) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.ClusterConnectionProvider.getConnectionAsync(ClusterConnectionProvider.java:44) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionProvider.getConnection(LettuceConnectionProvider.java:53) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.lambda$getConnection$0(LettucePoolingConnectionProvider.java:93) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:211) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.support.ConnectionPoolSupport$RedisPooledObjectFactory.create(ConnectionPoolSupport.java:201) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:71) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:566) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:306) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:233) ~[commons-pool2-2.12.0.jar:2.12.0]
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:122) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at io.lettuce.core.support.ConnectionPoolSupport$1.borrowObject(ConnectionPoolSupport.java:117) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+	at org.springframework.data.redis.connection.lettuce.LettucePoolingConnectionProvider.getConnection(LettucePoolingConnectionProvider.java:99) ~[spring-data-redis-3.3.4.jar:3.3.4]
+	... 19 common frames omitted
+Caused by: io.lettuce.core.cluster.topology.DefaultClusterTopologyRefresh$CannotRetrieveClusterPartitions: Cannot retrieve cluster partitions from [redis://**************@127.0.0.1?timeout=5s]
+
+Details:
+	[redis://**************@127.0.0.1?timeout=5s]: ERR This instance has cluster support disabled
+
+	Suppressed: io.lettuce.core.RedisCommandExecutionException: ERR This instance has cluster support disabled
+		at io.lettuce.core.internal.ExceptionFactory.createExecutionException(ExceptionFactory.java:147) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+		at io.lettuce.core.internal.Exceptions.bubble(Exceptions.java:72) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+		at io.lettuce.core.cluster.topology.DefaultClusterTopologyRefresh.getException(DefaultClusterTopologyRefresh.java:402) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+		at io.lettuce.core.cluster.topology.DefaultClusterTopologyRefresh.tryFail(DefaultClusterTopologyRefresh.java:173) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+		at io.lettuce.core.cluster.topology.DefaultClusterTopologyRefresh.lambda$null$9(DefaultClusterTopologyRefresh.java:150) ~[lettuce-core-6.3.2.RELEASE.jar:6.3.2.RELEASE/8941aea]
+		at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[na:na]
+		at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[na:na]
+		at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[na:na]
+		at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653) ~[na:na]
+		at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[na:na]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.113.Final.jar:4.1.113.Final]
+		at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+	Caused by: io.lettuce.core.RedisCommandExecutionException: ERR This instance has cluster support disabled
+		at io.lettuce.core.internal.ExceptionFactory.createExecutionException(ExceptionFactory.java:147)
+		at io.lettuce.core.internal.ExceptionFactory.createExecutionException(ExceptionFactory.java:116)
+		at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
+		at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
+		at io.lettuce.core.cluster.topology.TimedAsyncCommand.complete(TimedAsyncCommand.java:52)
+		at io.lettuce.core.protocol.CommandWrapper.complete(CommandWrapper.java:63)
+		at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:745)
+		at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:680)
+		at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:597)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+		... 4 common frames omitted
+
+2025-10-28T10:34:10.596+08:00  WARN 32732 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:34:10.596+08:00  WARN 32732 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:34:10.596+08:00  WARN 32732 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:34:10.598+08:00  WARN 32732 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:34:10.598+08:00  WARN 32732 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:34:10.598+08:00  WARN 32732 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:34:14.552+08:00  WARN 25588 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:34:16.820+08:00  WARN 25588 --- [dx-sample-project] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception with message: Invalid Redis URL '127.0.0.1:6379'
+2025-10-28T10:34:17.775+08:00  WARN 25588 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:34:17.776+08:00  WARN 25588 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:34:17.776+08:00  WARN 25588 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:34:17.776+08:00  WARN 25588 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:34:17.777+08:00  WARN 25588 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:34:17.777+08:00  WARN 25588 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:34:58.789+08:00  WARN 1548 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:35:01.802+08:00  WARN 1548 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:35:01.803+08:00  WARN 1548 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:55:56.563+08:00  WARN 1548 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:55:56.563+08:00  WARN 1548 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:55:56.563+08:00  WARN 1548 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:55:56.564+08:00  WARN 1548 --- [dx-sample-project] [Thread-9] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:55:56.565+08:00  WARN 1548 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:55:56.565+08:00  WARN 1548 --- [dx-sample-project] [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:56:04.278+08:00  WARN 33212 --- [dx-sample-project] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:56:08.191+08:00  WARN 33212 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:56:08.192+08:00  WARN 33212 --- [dx-sample-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:56:49.743+08:00  WARN 33212 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:56:49.743+08:00  WARN 33212 --- [dx-sample-project] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:56:49.743+08:00  WARN 33212 --- [dx-sample-project] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:56:49.743+08:00  WARN 33212 --- [dx-sample-project] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:56:49.743+08:00  WARN 33212 --- [dx-sample-project] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:56:49.744+08:00  WARN 33212 --- [dx-sample-project] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:56:53.948+08:00  WARN 34256 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.dxsample.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:56:57.120+08:00  WARN 34256 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:56:57.122+08:00  WARN 34256 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T10:57:44.769+08:00  WARN 34256 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T10:57:44.769+08:00  WARN 34256 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T10:57:44.769+08:00  WARN 34256 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T10:57:44.769+08:00  WARN 34256 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T10:57:44.769+08:00  WARN 34256 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T10:57:44.770+08:00  WARN 34256 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T10:57:48.976+08:00  WARN 14936 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T10:57:52.119+08:00  WARN 14936 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T10:57:52.120+08:00  WARN 14936 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T11:51:54.358+08:00  WARN 14936 --- [dx-edu-system-admin] [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'code' for method parameter type String is not present]
+2025-10-28T18:53:44.065+08:00  WARN 14936 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T18:53:44.065+08:00  WARN 14936 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T18:53:44.065+08:00  WARN 14936 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T18:53:44.066+08:00  WARN 14936 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T18:53:44.066+08:00  WARN 14936 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T18:53:44.066+08:00  WARN 14936 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T18:53:48.531+08:00  WARN 13656 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T18:53:51.754+08:00  WARN 13656 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T18:53:51.755+08:00  WARN 13656 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-28T20:06:40.223+08:00  WARN 13656 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-28T20:06:40.223+08:00  WARN 13656 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-28T20:06:40.223+08:00  WARN 13656 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-28T20:06:40.224+08:00  WARN 13656 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-28T20:06:40.224+08:00  WARN 13656 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-28T20:06:40.224+08:00  WARN 13656 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-28T20:37:47.878+08:00  WARN 21284 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-28T20:37:50.885+08:00  WARN 21284 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-28T20:37:50.885+08:00  WARN 21284 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead

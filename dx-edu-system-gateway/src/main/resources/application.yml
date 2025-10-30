@@ -1,0 +1,13 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /gateway
+spring:
+  application:
+    name: dx-edu-system-gateway
+  profiles:
+    active: dev
+
+logging:
+  level:
+    com.edu.gateway: DEBUG

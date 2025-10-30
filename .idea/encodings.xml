@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$USER_HOME$/src/main/java" charset="UTF-8" />
+    <file url="file://$USER_HOME$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-edu-system-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-edu-system-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-eduadmin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-gatway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-gatway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dingxiao-service-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-infra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-infra/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-infra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-infra/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dx-edu-system-perm/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

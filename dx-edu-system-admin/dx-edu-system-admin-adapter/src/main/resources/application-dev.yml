@@ -1,0 +1,134 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/eduadmin?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # 连接池启动时创建的最小连接数量
+      initial-size: 5
+      # 连接池中始终保持的最少空闲连接数量。即使没有请求，也会保留这些连接
+      min-idle: 5
+      # 同一时间最多可以有多少个数据库连接被使用
+      max-active: 20
+      # 获取连接的最大等待时间（毫秒）
+      max-wait: 60000
+      # 空闲连接回收器运行间隔（毫秒）
+      time-between-eviction-runs-millis: 60000
+      # 连接最小空闲时间（毫秒）
+      min-evictable-idle-time-millis: 300000
+      # 用来检测连接是否有效的 SQL 语句
+      validation-query: SELECT 1
+      # 空闲时是否检测连接有效性
+      test-while-idle: true
+      # 从连接池获取连接时是否检测有效性，默认为false
+      # test-on-borrow: false
+      # 归还连接到池中时是否检测有效性
+      # test-on-return: false
+      # 是否缓存 PreparedStatement
+      pool-prepared-statements: true
+      # 每个连接最多缓存多少个 PreparedStatement,默认值10
+      max-pool-prepared-statement-per-connection-size: 20
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+#      cluster:
+#        nodes:
+#          - 127.0.0.1:6379
+#      password: redis_password
+#      timeout: 5000
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/test
+      # 连接池配置
+      connection-pool:
+        max-size: 50          # 最大连接数
+        min-size: 10          # 最小连接数
+        max-wait-queue-size: 500  # 最大等待队列大小
+        max-wait-time: 2000ms     # 最大等待时间
+        max-idle-time: 60000ms    # 最大空闲时间
+        max-life-time: 1800000ms  # 连接最大生命周期
+      property-naming-strategy: SNAKE_CASE     #驼峰转下划线
+      transaction: false  #事务开关
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+dubbo:
+  application:
+    name: dx-edu-system-admin
+  registry:
+    address: nacos://127.0.0.1:8848
+  protocol:
+    name: dubbo
+    port: 20880
+    serialization: hessian2
+  scan:
+    # 扫描DubboService 注解的类
+    base-packages: com.edu.admin.application.*.dubbo
+es:
+  enabled: false
+management:
+  health:
+    elasticsearch:
+      enabled: ${es.enabled:false}
+seata:
+  enabled: false
+  application-id: ${spring.application-name}
+  tx-service-group: default_tx_group
+  service:
+    vgroup-mapping:
+      default_tx_group: default
+    grouplist:
+      default: 127.0.0.1:8091
+  data-source-proxy-mode: AT
+# ========================
+# RocketMQ 配置
+# ========================
+rocketmq:
+  enabled: false
+  name-server: localhost:9876 # mq地址
+  producer:
+    group: springboot-producer-group # 必须指定group
+    send-message-timeout: 3000 # 消息发送超时时长，默认3s
+    retry-times-when-send-failed: 3 # 同步发送消息失败重试次数，默认2
+    retry-times-when-send-async-failed: 3 # 异步发送消息失败重试次数，默认2
+    access-key:     # 若启用了 ACL 功能
+    secret-key:     # 若启用了 ACL 功能
+    customized-trace-topic: TestTopic
+
+
+
+# ========================
+# 组件集成开关列表
+# ========================
+component:
+  enabled:
+    mongodb: false
+
+# xxl-job 定时任务配置
+xxl:
+  job:
+    enabled: false  #  XXL-Job 配置开关（设为 true 则开启）
+    admin:
+      addresses: http://127.0.0.1:9999/xxl-job-admin  # 调度中心地址
+    accessToken: default_token  # 通信令牌
+    executor:
+      appname: xxl-job-executor-${spring.application.name}  # 执行器名称（引用应用名）
+      address:  # 执行器地址（默认空，自动注册）
+      ip:  # 执行器IP（默认空，自动获取）
+      port: 9998  # 执行器端口
+      logpath: /data/applogs/xxl-job/jobhandler  # 日志路径
+      logretentiondays: 30  # 日志保留天数

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b2f398c-fb42-451b-a9b0-706c9396386b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/dingxiao-service-gateway">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dingxiao-service-gateway" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\software\maven\mvn" />
+        <option name="localRepository" value="D:\software\maven\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\software\maven\mvn\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="34Ov6cYPHpHGe5tung6k4zPCpJD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build dingxiao-service-gateway.executor": "Run",
+    "Gradle.Tests in 'dingxiao-service-gateway.test'.executor": "Debug",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.dingxiao-edu-system-parent [clean].executor": "Run",
+    "Maven.dingxiao-edu-system-parent [install].executor": "Run",
+    "Maven.dingxiao-service-eduadmin [clean].executor": "Run",
+    "Maven.dingxiao-service-eduadmin-adapter [clean].executor": "Run",
+    "Maven.dingxiao-service-eduadmin-infrastructure [clean].executor": "Run",
+    "Maven.dingxiao-service-gateway [clean].executor": "Run",
+    "Maven.dingxiao-service-gateway [install].executor": "Run",
+    "Maven.dingxiao-service-gateway [verify].executor": "Run",
+    "Maven.dingxiao-service-gatway [clean].executor": "Run",
+    "Maven.dingxiao-service-gatway [compile].executor": "Run",
+    "Maven.dingxiao-service-gatway [install].executor": "Run",
+    "Maven.dingxiao-service-security [clean].executor": "Run",
+    "Maven.dingxiao-service-security [compile].executor": "Run",
+    "Maven.dingxiao-service-security [install].executor": "Run",
+    "Maven.dx-edu-system-admin [clean].executor": "Run",
+    "Maven.dx-edu-system-auth [clean].executor": "Run",
+    "Maven.dx-edu-system-gateway [clean].executor": "Run",
+    "Maven.dx-edu-system-gateway [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found": "New/updated database configurations found",
+    "Notification.DoNotAsk-DatabaseConfigFileWatcher.found": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AuthApplication (1).executor": "Run",
+    "Spring Boot.AuthApplication.executor": "Debug",
+    "Spring Boot.DingxiaoServiceGatewayApplication.executor": "Debug",
+    "Spring Boot.DxEduSystemAdminAdapterApplication.executor": "Debug",
+    "Spring Boot.DxEduSystemGatewayApplication.executor": "Debug",
+    "Spring Boot.DxEduSystemPermAdapterApplication.executor": "Debug",
+    "Spring Boot.EduAdminApplication.executor": "Debug",
+    "Spring Boot.GatewayApplication.executor": "Debug",
+    "Spring Boot.SecurityApplication.executor": "Debug",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "last_opened_file_path": "D:/project/dx-edu-system/dx-edu-system-perm/dx-edu-system-perm-infra/src/main/java/com/edu/perm/infra/repositories",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29885057",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\dx-edu-system\dx-edu-system-perm\dx-edu-system-perm-infra\src\main\java\com\edu\perm\infra\repositories" />
+      <recent name="D:\project\dx-edu-system\dx-edu-system-perm\dx-edu-system-perm-infra\src\main\java\com\edu\perm\infra\bean\entity" />
+      <recent name="D:\project\dx-edu-system\dx-edu-system-perm\dx-edu-system-perm-adapter\src\main\java\com\edu\perm\dapter" />
+      <recent name="D:\project\dx-edu-system\dx-edu-system-common\src\main\java\com\edu\common" />
+      <recent name="D:\project\dx-edu-system\dx-edu-system-admin\dx-edu-system-admin-client\src\main\java\com\edu\admin\client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\dx-edu-system\dingxiao-service-security\src\main\java\org\security" />
+      <recent name="D:\project\dx-edu-system" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.edu.admin.adapter" />
+      <recent name="com.edu.admin.infra" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.edu.gateway.convert" />
+      <recent name="org.gatway.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AdminAdapterApplication" value="STOPPED" />
+              <entry key="AuthApplication" value="STOPPED" />
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="PermAdapterApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DxEduSystemPermAdapterApplication">
+    <configuration name="AdminAdapterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dx-edu-system-admin-adapter" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.admin.adapter.AdminAdapterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dx-edu-system-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../software/Java/jdk17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="dx-edu-system-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dingxiao-service-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermAdapterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dx-edu-system-perm-adapter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.perm.dapter.PermAdapterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DxEduSystemAdminAdapterApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.DxEduSystemPermAdapterApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b2f398c-fb42-451b-a9b0-706c9396386b" name="Changes" comment="" />
+      <created>1761097258967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761097258967</updated>
+      <workItem from="1761097260138" duration="28810000" />
+      <workItem from="1761182828084" duration="10790000" />
+      <workItem from="1761202338010" duration="104000" />
+      <workItem from="1761202457251" duration="128000" />
+      <workItem from="1761202590275" duration="163000" />
+      <workItem from="1761202767703" duration="5109000" />
+      <workItem from="1761216162320" duration="5572000" />
+      <workItem from="1761535171289" duration="10310000" />
+      <workItem from="1761550245134" duration="4241000" />
+      <workItem from="1761554513525" duration="5590000" />
+      <workItem from="1761560497379" duration="685000" />
+      <workItem from="1761561203081" duration="66768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dingxiao-service-security/src/main/java/org/security/controller/TestController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dingxiao-service-security/src/main/java/org/security/controller/AuthController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dingxiao-service-security/src/main/java/org/security/service/CustomUserDetailsService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dingxiao-service-security/src/main/java/org/security/service/CustomUserDetailsService.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dingxiao-service-security/src/main/java/org/security/controller/AuthController.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dingxiao-service-eduadmin/dingxiao-service-eduadmin-adapter/src/main/java/org/eduadmin/adapter/web/StudentController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-adapter/src/main/java/com/edu/admin/adapter/web/v1/StudentController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-auth/src/main/java/com/edu/auth/config/SecurityConfig.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-auth/src/main/java/com/edu/auth/service/JpaRegisteredClientRepository.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-auth/src/main/java/com/edu/auth/service/JpaRegisteredClientRepository.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-gateway/src/main/java/com/edu/gateway/convert/CustomJwtAuthenticationConverter.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../software/maven/repository/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3.jar!/org/springframework/security/access/intercept/aopalliance/MethodSecurityInterceptor.class</url>
+          <line>24</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-infra/src/main/java/com/edu/admin/infra/handler/JsonAccessDeniedHandler.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-infra/src/main/java/com/edu/admin/infra/evaluator/CustomPermissionEvaluator.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-adapter/src/main/java/com/edu/admin/adapter/web/v1/CourseController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-infra/src/main/java/com/edu/admin/infra/evaluator/CustomRoleEvaluator.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="token" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

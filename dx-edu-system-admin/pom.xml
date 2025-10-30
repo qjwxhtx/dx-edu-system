@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.edu.parent</groupId>
+        <artifactId>dx-edu-system-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../dx-edu-system-parent/pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.edu.admin</groupId>
+    <artifactId>dx-edu-system-admin</artifactId>
+    <packaging>pom</packaging>
+    <name>dx-edu-system-admin</name>
+
+    <modules>
+        <module>dx-edu-system-admin-adapter</module>
+        <module>dx-edu-system-admin-app</module>
+        <module>dx-edu-system-admin-client</module>
+        <module>dx-edu-system-admin-domain</module>
+        <module>dx-edu-system-admin-infra</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.edu.admin.adapter</groupId>
+                <artifactId>dx-edu-system-admin-adapter</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.admin.client</groupId>
+                <artifactId>dx-edu-system-admin-client</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.admin.app</groupId>
+                <artifactId>dx-edu-system-admin-app</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.admin.domain</groupId>
+                <artifactId>dx-edu-system-admin-domain</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.admin.infra</groupId>
+                <artifactId>dx-edu-system-admin-infra</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

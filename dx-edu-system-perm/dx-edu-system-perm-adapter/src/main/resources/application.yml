@@ -1,0 +1,15 @@
+server:
+  port: 8093
+  servlet:
+    context-path: /perm
+spring:
+  application:
+    name: dx-edu-system-perm
+  profiles:
+    active: dev
+
+springdoc:
+  api-docs:
+    enabled: true # 开启OpenApi接口
+  swagger-ui:
+    enabled: true # 开启swagger界面，依赖OpenApi，需要OpenApi同时开启

@@ -1,0 +1,42 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: lb://dx-edu-system-auth/oauth2/jwks
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      # 路由配置
+      routes:
+        # 认证服务路由
+        - id: auth_route
+          uri: lb://dx-edu-system-auth
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=0
+        - id: admin_route
+          uri: lb://dx-edu-system-admin
+          predicates:
+            - Path=/admin/**
+          filters:
+            - StripPrefix=0
+        - id: perm_route
+          uri: lb://dx-edu-system-perm
+          predicates:
+            Path=/perm/**
+          filters:
+            StripPrefix=0
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 0
+
+jwt:
+  secret: "mySuperSecretKeyForJWTGenerationInSpringCloudGateway2024WithHMAC256"
+  expiration: 3600000  # 1小时，单位毫秒
+  refresh-threshold: 1800000  # 30分钟，剩余时间小于此值时建议刷新

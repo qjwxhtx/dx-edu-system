@@ -1,0 +1,402 @@
+2025-10-29T10:08:55.949+08:00  WARN 21284 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T10:08:55.950+08:00  WARN 21284 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T10:08:55.950+08:00  WARN 21284 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T10:08:55.951+08:00  WARN 21284 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T10:08:55.952+08:00  WARN 21284 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T10:08:55.952+08:00  WARN 21284 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T11:01:06.429+08:00  WARN 8512 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T11:01:10.473+08:00  WARN 8512 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T11:01:10.474+08:00  WARN 8512 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T11:01:13.780+08:00  WARN 8512 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: dac9813a-411a-49fd-a685-d7690e9c00ff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T11:14:04.936+08:00  WARN 8512 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T11:14:04.936+08:00  WARN 8512 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T11:14:04.938+08:00  WARN 8512 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T11:14:04.938+08:00  WARN 8512 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T11:14:04.939+08:00  WARN 8512 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T11:14:04.939+08:00  WARN 8512 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T11:16:33.208+08:00  WARN 34668 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T11:16:36.471+08:00  WARN 34668 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T11:16:36.472+08:00  WARN 34668 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T11:16:38.875+08:00  WARN 34668 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5ed684b8-7842-42f5-8da8-9e2125da1b06
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T11:29:04.235+08:00  WARN 34668 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T11:29:04.235+08:00  WARN 34668 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T11:29:04.235+08:00  WARN 34668 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T11:29:04.235+08:00  WARN 34668 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T11:29:04.235+08:00  WARN 34668 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T11:29:04.235+08:00  WARN 34668 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T11:29:09.842+08:00  WARN 35800 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T11:29:13.006+08:00  WARN 35800 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T11:29:13.007+08:00  WARN 35800 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T11:29:15.508+08:00  WARN 35800 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ef8165a3-52e3-4580-b2de-678198c5c502
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T11:34:49.209+08:00  WARN 35800 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T11:34:49.209+08:00  WARN 35800 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T11:34:49.209+08:00  WARN 35800 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T11:34:49.209+08:00  WARN 35800 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T11:34:49.209+08:00  WARN 35800 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T11:34:49.209+08:00  WARN 35800 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T11:36:05.916+08:00  WARN 34984 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T11:36:08.946+08:00  WARN 34984 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T11:36:08.947+08:00  WARN 34984 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T12:07:23.755+08:00  WARN 34984 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T12:07:23.755+08:00  WARN 34984 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T12:07:23.755+08:00  WARN 34984 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T12:07:23.755+08:00  WARN 34984 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T12:07:23.756+08:00  WARN 34984 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T12:07:23.756+08:00  WARN 34984 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T12:07:34.110+08:00  WARN 30576 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T12:07:37.230+08:00  WARN 30576 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T12:07:37.231+08:00  WARN 30576 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T12:07:38.625+08:00  WARN 30576 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e501f1ab-6255-4555-a1ae-e916fa473d43
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T14:06:20.097+08:00  WARN 30576 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T14:06:20.097+08:00  WARN 30576 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T14:06:20.097+08:00  WARN 30576 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T14:06:20.097+08:00  WARN 30576 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T14:06:20.098+08:00  WARN 30576 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T14:06:20.098+08:00  WARN 30576 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T14:06:28.827+08:00  WARN 2528 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T14:06:32.584+08:00  WARN 2528 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T14:06:32.586+08:00  WARN 2528 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T14:06:34.081+08:00  WARN 2528 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d60874f0-d2f5-4f9b-bcfc-1692edbebcf8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T14:07:27.752+08:00  WARN 2528 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T14:07:27.753+08:00  WARN 2528 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T14:07:27.752+08:00  WARN 2528 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T14:07:27.753+08:00  WARN 2528 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T14:07:27.753+08:00  WARN 2528 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T14:07:27.753+08:00  WARN 2528 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T14:07:32.317+08:00  WARN 388 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T14:07:35.869+08:00  WARN 388 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T14:07:35.870+08:00  WARN 388 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T14:07:37.354+08:00  WARN 388 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 65f46a84-8ea2-42aa-8369-dc41eb72fc68
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T15:51:15.927+08:00  WARN 388 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T15:51:15.927+08:00  WARN 388 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T15:51:15.927+08:00  WARN 388 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T15:51:15.928+08:00  WARN 388 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T15:51:15.928+08:00  WARN 388 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T15:51:15.928+08:00  WARN 388 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T15:51:23.149+08:00  WARN 19296 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T15:51:26.336+08:00  WARN 19296 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T15:51:26.337+08:00  WARN 19296 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T15:51:27.793+08:00  WARN 19296 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d401650f-f0cd-4063-9fed-799808a7a994
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:08:46.724+08:00  WARN 19296 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:08:46.724+08:00  WARN 19296 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:08:46.724+08:00  WARN 19296 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:08:46.725+08:00  WARN 19296 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:08:46.725+08:00  WARN 19296 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:08:46.726+08:00  WARN 19296 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:08:53.002+08:00  WARN 32544 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:08:56.815+08:00  WARN 32544 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:08:56.817+08:00  WARN 32544 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:08:58.618+08:00  WARN 32544 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 790df895-7f53-4d60-a6af-295e53d68b10
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:25:07.467+08:00  WARN 32544 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:25:07.467+08:00  WARN 32544 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:25:07.467+08:00  WARN 32544 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:25:07.467+08:00  WARN 32544 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:25:07.468+08:00  WARN 32544 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:25:07.468+08:00  WARN 32544 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:25:13.293+08:00  WARN 8736 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:25:16.438+08:00  WARN 8736 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:25:16.439+08:00  WARN 8736 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:25:17.988+08:00  WARN 8736 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ec795e15-d4ce-4cb8-acf0-369ae9deb507
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:35:02.020+08:00  WARN 8736 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:35:02.020+08:00  WARN 8736 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:35:02.020+08:00  WARN 8736 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:35:02.020+08:00  WARN 8736 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:35:02.020+08:00  WARN 8736 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:35:02.022+08:00  WARN 8736 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:35:08.056+08:00  WARN 34912 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:35:11.302+08:00  WARN 34912 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:35:11.303+08:00  WARN 34912 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:35:12.763+08:00  WARN 34912 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f1ab07ad-e6f4-4b8b-8f0b-7f2a4b5d903f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:36:14.374+08:00  WARN 34912 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:36:14.374+08:00  WARN 34912 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:36:14.374+08:00  WARN 34912 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:36:14.374+08:00  WARN 34912 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:36:14.376+08:00  WARN 34912 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:36:14.376+08:00  WARN 34912 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:36:20.067+08:00  WARN 8968 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:36:23.309+08:00  WARN 8968 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:36:23.310+08:00  WARN 8968 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:36:24.742+08:00  WARN 8968 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0faf9b88-ec68-4133-90be-2c879c162950
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:44:54.138+08:00  WARN 8968 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:44:54.138+08:00  WARN 8968 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:44:54.138+08:00  WARN 8968 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:44:54.138+08:00  WARN 8968 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:44:54.139+08:00  WARN 8968 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:44:54.139+08:00  WARN 8968 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:45:00.803+08:00  WARN 35004 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:45:04.086+08:00  WARN 35004 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:45:04.087+08:00  WARN 35004 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:45:05.535+08:00  WARN 35004 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 971ecaf0-1378-44d1-b359-0c3f313ff05f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:48:47.124+08:00  WARN 35004 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:48:47.124+08:00  WARN 35004 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:48:47.124+08:00  WARN 35004 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:48:47.124+08:00  WARN 35004 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:48:47.125+08:00  WARN 35004 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:48:47.125+08:00  WARN 35004 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:48:52.817+08:00  WARN 23068 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:48:56.112+08:00  WARN 23068 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:48:56.113+08:00  WARN 23068 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:48:57.589+08:00  WARN 23068 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e052c224-9d03-46b3-832b-ec6f431515e3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:50:39.238+08:00  WARN 23068 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:50:39.238+08:00  WARN 23068 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:50:39.239+08:00  WARN 23068 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:50:39.239+08:00  WARN 23068 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:50:39.239+08:00  WARN 23068 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:50:39.239+08:00  WARN 23068 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:50:45.110+08:00  WARN 18616 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:50:48.291+08:00  WARN 18616 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:50:48.292+08:00  WARN 18616 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:50:49.789+08:00  WARN 18616 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a8f6d524-9d78-4853-9c71-44fe40cdf71b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:51:54.114+08:00  WARN 18616 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:51:54.115+08:00  WARN 18616 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:51:54.115+08:00  WARN 18616 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:51:54.115+08:00  WARN 18616 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:51:54.115+08:00  WARN 18616 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:51:54.115+08:00  WARN 18616 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:53:00.251+08:00  WARN 23744 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:53:03.541+08:00  WARN 23744 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:53:03.542+08:00  WARN 23744 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:53:05.068+08:00  WARN 23744 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 54675e4d-6859-442b-bf1e-2bfecc5211d3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T16:55:57.921+08:00  WARN 23744 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T16:55:57.921+08:00  WARN 23744 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T16:55:57.921+08:00  WARN 23744 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T16:55:57.921+08:00  WARN 23744 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T16:55:57.922+08:00  WARN 23744 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T16:55:57.922+08:00  WARN 23744 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T16:56:03.942+08:00  WARN 17436 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T16:56:07.134+08:00  WARN 17436 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T16:56:07.135+08:00  WARN 17436 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T16:56:08.566+08:00  WARN 17436 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fcf99b1b-6965-4199-9502-eb5e0ec25fdb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:00:02.843+08:00  WARN 17436 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:00:02.843+08:00  WARN 17436 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:00:02.843+08:00  WARN 17436 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:00:02.843+08:00  WARN 17436 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:00:02.845+08:00  WARN 17436 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:00:02.845+08:00  WARN 17436 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:00:09.313+08:00  WARN 24812 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:00:12.904+08:00  WARN 24812 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:00:12.905+08:00  WARN 24812 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:00:14.754+08:00  WARN 24812 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: daf0dc71-3108-408b-a7fc-6246f2c0654c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:03:13.519+08:00  WARN 24812 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:03:13.520+08:00  WARN 24812 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:03:13.520+08:00  WARN 24812 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:03:13.520+08:00  WARN 24812 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:03:13.520+08:00  WARN 24812 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:03:13.521+08:00  WARN 24812 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:03:18.315+08:00  WARN 30332 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:03:21.832+08:00  WARN 30332 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:03:21.833+08:00  WARN 30332 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:03:23.543+08:00  WARN 30332 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c0efd267-1043-4598-bacf-09242cb91f5b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:05:09.594+08:00  WARN 30332 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:05:09.594+08:00  WARN 30332 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:05:09.594+08:00  WARN 30332 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:05:09.594+08:00  WARN 30332 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:05:09.594+08:00  WARN 30332 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:05:09.595+08:00  WARN 30332 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:05:15.028+08:00  WARN 1792 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:05:18.266+08:00  WARN 1792 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:05:18.267+08:00  WARN 1792 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:05:19.728+08:00  WARN 1792 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a0586604-19e9-4cc7-9edf-659a45c79e18
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:06:15.982+08:00  WARN 1792 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:06:15.982+08:00  WARN 1792 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:06:15.982+08:00  WARN 1792 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:06:15.982+08:00  WARN 1792 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:06:15.982+08:00  WARN 1792 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:06:15.982+08:00  WARN 1792 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:06:21.521+08:00  WARN 3360 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:06:24.722+08:00  WARN 3360 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:06:24.723+08:00  WARN 3360 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:06:26.145+08:00  WARN 3360 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 126c5c45-efed-4c1e-9ee4-783b66c43f82
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:07:12.749+08:00  WARN 3360 --- [dx-edu-system-admin] [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-10-29T17:07:20.543+08:00  WARN 3360 --- [dx-edu-system-admin] [http-nio-8090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult com.edu.admin.adapter.web.v1.StudentController.save(com.edu.admin.client.student.bean.request.StudentSynRequest)]
+2025-10-29T17:08:10.748+08:00  WARN 3360 --- [dx-edu-system-admin] [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult com.edu.admin.adapter.web.v1.StudentController.save(com.edu.admin.client.student.bean.request.StudentSynRequest)]
+2025-10-29T17:08:45.572+08:00  WARN 3360 --- [dx-edu-system-admin] [http-nio-8090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult com.edu.admin.adapter.web.v1.StudentController.save(com.edu.admin.client.student.bean.request.StudentSynRequest)]
+2025-10-29T17:09:39.865+08:00  WARN 3360 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:09:39.865+08:00  WARN 3360 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:09:39.866+08:00  WARN 3360 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:09:39.866+08:00  WARN 3360 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:09:39.866+08:00  WARN 3360 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:09:39.866+08:00  WARN 3360 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:09:45.598+08:00  WARN 34528 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:09:48.854+08:00  WARN 34528 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:09:48.855+08:00  WARN 34528 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:09:50.374+08:00  WARN 34528 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8259f947-1bdb-469b-9e2a-48847eacddde
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:10:11.224+08:00  WARN 34528 --- [dx-edu-system-admin] [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-10-29T17:10:18.490+08:00  WARN 34528 --- [dx-edu-system-admin] [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult<com.edu.admin.domain.bean.PageUtil<com.edu.admin.client.course.bean.dto.CourseDto>> com.edu.admin.adapter.web.v1.CourseController.pagingQuery(com.edu.admin.client.course.bean.request.QueryCourseRequest)]
+2025-10-29T17:10:44.306+08:00  WARN 34528 --- [dx-edu-system-admin] [http-nio-8090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult<com.edu.admin.domain.bean.PageUtil<com.edu.admin.client.course.bean.dto.CourseDto>> com.edu.admin.adapter.web.v1.CourseController.pagingQuery(com.edu.admin.client.course.bean.request.QueryCourseRequest)]
+2025-10-29T17:11:34.002+08:00  WARN 34528 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:11:34.002+08:00  WARN 34528 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:11:34.002+08:00  WARN 34528 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:11:34.002+08:00  WARN 34528 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:11:34.002+08:00  WARN 34528 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:11:34.003+08:00  WARN 34528 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:11:39.290+08:00  WARN 34040 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:11:42.457+08:00  WARN 34040 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:11:42.458+08:00  WARN 34040 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:11:43.959+08:00  WARN 34040 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b67f0b25-adcc-40e9-806e-40090fea2148
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:11:55.749+08:00  WARN 34040 --- [dx-edu-system-admin] [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult<com.edu.admin.domain.bean.PageUtil<com.edu.admin.client.course.bean.dto.CourseDto>> com.edu.admin.adapter.web.v1.CourseController.pagingQuery(com.edu.admin.client.course.bean.request.QueryCourseRequest)]
+2025-10-29T17:24:42.749+08:00  WARN 34040 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:24:42.749+08:00  WARN 34040 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:24:42.749+08:00  WARN 34040 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:24:42.750+08:00  WARN 34040 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:24:42.750+08:00  WARN 34040 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:24:42.751+08:00  WARN 34040 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:24:49.558+08:00  WARN 8616 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:24:52.809+08:00  WARN 8616 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:24:52.810+08:00  WARN 8616 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:24:54.265+08:00  WARN 8616 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ad5bab45-91f1-49cd-bbb6-0b8d2eb38601
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:24:59.448+08:00  WARN 8616 --- [dx-edu-system-admin] [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult<com.edu.admin.domain.bean.PageUtil<com.edu.admin.client.course.bean.dto.CourseDto>> com.edu.admin.adapter.web.v1.CourseController.pagingQuery(com.edu.admin.client.course.bean.request.QueryCourseRequest)]
+2025-10-29T17:25:15.632+08:00  WARN 8616 --- [dx-edu-system-admin] [http-nio-8090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult<com.edu.admin.domain.bean.PageUtil<com.edu.admin.client.course.bean.dto.CourseDto>> com.edu.admin.adapter.web.v1.CourseController.pagingQuery(com.edu.admin.client.course.bean.request.QueryCourseRequest)]
+2025-10-29T17:25:23.100+08:00  WARN 8616 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:25:23.100+08:00  WARN 8616 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:25:23.100+08:00  WARN 8616 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:25:23.101+08:00  WARN 8616 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:25:23.101+08:00  WARN 8616 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:25:23.101+08:00  WARN 8616 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:25:29.228+08:00  WARN 32476 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:25:32.481+08:00  WARN 32476 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:25:32.482+08:00  WARN 32476 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:25:33.946+08:00  WARN 32476 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 09e8057e-1045-458d-9153-846e149c94bb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:25:37.687+08:00  WARN 32476 --- [dx-edu-system-admin] [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult<com.edu.admin.domain.bean.PageUtil<com.edu.admin.client.course.bean.dto.CourseDto>> com.edu.admin.adapter.web.v1.CourseController.pagingQuery(com.edu.admin.client.course.bean.request.QueryCourseRequest)]
+2025-10-29T17:30:23.970+08:00  WARN 32476 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:30:23.970+08:00  WARN 32476 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:30:23.970+08:00  WARN 32476 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:30:23.970+08:00  WARN 32476 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:30:23.971+08:00  WARN 32476 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:30:23.971+08:00  WARN 32476 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-29T17:30:29.566+08:00  WARN 18392 --- [dx-edu-system-admin] [main] c.s.b.f.a.ServiceAnnotationPostProcessor :  [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [com.edu.admin.application.*.dubbo], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.40.147, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-10-29T17:30:32.735+08:00  WARN 18392 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-29T17:30:32.736+08:00  WARN 18392 --- [dx-edu-system-admin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-10-29T17:30:34.157+08:00  WARN 18392 --- [dx-edu-system-admin] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 52d0be4a-a2ae-4e4d-a690-c60a176774db
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-29T17:30:39.077+08:00  WARN 18392 --- [dx-edu-system-admin] [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.edu.admin.client.ResResult<com.edu.admin.domain.bean.PageUtil<com.edu.admin.client.course.bean.dto.CourseDto>> com.edu.admin.adapter.web.v1.CourseController.pagingQuery(com.edu.admin.client.course.bean.request.QueryCourseRequest)]
+2025-10-29T17:30:56.709+08:00  WARN 18392 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-29T17:30:56.709+08:00  WARN 18392 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-10-29T17:30:56.709+08:00  WARN 18392 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-29T17:30:56.709+08:00  WARN 18392 --- [dx-edu-system-admin] [Thread-10] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-29T17:30:56.709+08:00  WARN 18392 --- [dx-edu-system-admin] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+2025-10-29T17:30:56.709+08:00  WARN 18392 --- [dx-edu-system-admin] [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end

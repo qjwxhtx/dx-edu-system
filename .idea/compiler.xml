@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/dingxiao-edu-system-parent/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dingxiao-service-gateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dingxiao-service-security/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dingxiao-service-eduadmin" />
+        <module name="dx-edu-system-perm-domain" />
+        <module name="dx-edu-system-gateway" />
+        <module name="dx-edu-system-admin-adapter" />
+        <module name="dx-edu-system-admin-app" />
+        <module name="dx-edu-system-perm-client" />
+        <module name="dx-edu-system-perm-app" />
+        <module name="dx-edu-system-auth" />
+        <module name="dx-edu-system-perm-adapter" />
+        <module name="dx-edu-system-common" />
+        <module name="dx-edu-system-admin-infra" />
+        <module name="dx-edu-system-admin-client" />
+        <module name="dx-edu-system-admin-domain" />
+        <module name="dx-edu-system-perm-infra" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dingxiao-edu-system-parent" target="17" />
+      <module name="dingxiao-service-eduadmin" target="1.5" />
+      <module name="dingxiao-service-eduadmin-adapter" target="17" />
+      <module name="dingxiao-service-eduadmin-app" target="17" />
+      <module name="dingxiao-service-eduadmin-client" target="17" />
+      <module name="dingxiao-service-eduadmin-domain" target="17" />
+      <module name="dingxiao-service-eduadmin-infrastructure" target="17" />
+      <module name="dingxiao-service-gateway" target="17" />
+      <module name="dingxiao-service-gateway.test" target="17" />
+      <module name="dingxiao-service-gatway" target="17" />
+      <module name="dingxiao-service-security" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dingxiao-service-gateway" options="" />
+      <module name="dingxiao-service-gateway.main" options="-parameters" />
+      <module name="dingxiao-service-gateway.test" options="-parameters" />
+      <module name="dx-edu-system-admin-adapter" options="" />
+      <module name="dx-edu-system-auth" options="" />
+      <module name="dx-edu-system-gateway" options="" />
+      <module name="dx-edu-system-perm-adapter" options="" />
+    </option>
+  </component>
+</project>

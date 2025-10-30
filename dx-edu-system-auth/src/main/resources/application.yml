@@ -1,0 +1,19 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /auth
+spring:
+  application:
+    name: dx-edu-system-auth
+  profiles:
+    active: dev
+
+# 多租户配置
+multitenancy:
+  default-tenant: default
+  tenant-header: X-Tenant-ID
+  system-header: X-System-Code
+
+logging:
+  level:
+    com.edu.auth: DEBUG

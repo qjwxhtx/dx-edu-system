@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.edu.parent</groupId>
+        <artifactId>dx-edu-system-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../dx-edu-system-parent/pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.edu.perm</groupId>
+    <artifactId>dx-edu-system-perm</artifactId>
+    <packaging>pom</packaging>
+    <name>dx-edu-system-perm</name>
+
+    <modules>
+        <module>dx-edu-system-perm-adapter</module>
+        <module>dx-edu-system-perm-client</module>
+        <module>dx-edu-system-perm-app</module>
+        <module>dx-edu-system-perm-domain</module>
+        <module>dx-edu-system-perm-infra</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.edu.perm.adapter</groupId>
+                <artifactId>dx-edu-system-perm-adapter</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.perm.client</groupId>
+                <artifactId>dx-edu-system-perm-client</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.perm.app</groupId>
+                <artifactId>dx-edu-system-perm-app</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.perm.domain</groupId>
+                <artifactId>dx-edu-system-perm-domain</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.edu.perm.infra</groupId>
+                <artifactId>dx-edu-system-perm-infra</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

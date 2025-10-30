@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="Kotlin2JsCompilerArguments">
+    <option name="moduleKind" value="plain" />
+  </component>
+  <component name="Kotlin2JvmCompilerArguments">
+    <option name="jvmTarget" value="1.8" />
+  </component>
+  <component name="KotlinCommonCompilerArguments">
+    <option name="apiVersion" value="2.1" />
+    <option name="languageVersion" value="2.1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dingxiao-edu-system-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/dingxiao-service-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/dingxiao-service-security/pom.xml" />
+        <option value="$PROJECT_DIR$/dingxiao-service-gatway/pom.xml" />
+        <option value="$PROJECT_DIR$/dingxiao-service-eduadmin/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-edu-system-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-edu-sytem-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-edu-system-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-edu-system-admin/dx-edu-system-admin-adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/dx-edu-system-perm/dx-edu-system-perm-adapter/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
