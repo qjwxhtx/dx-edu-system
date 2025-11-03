@@ -219,6 +219,12 @@
                 <artifactId>xxl-job-core</artifactId>
                 <version>${xxl.job.version}</version>
             </dependency>
+            <!--集成logstash-->
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>7.2</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
