@@ -15,8 +15,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableDiscoveryClient
 @SpringBootApplication(scanBasePackages = {"com.edu.admin"},
     exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class, MongoRepositoriesAutoConfiguration.class, RocketMQAutoConfiguration.class})
-@EntityScan(basePackages = "com.edu.admin.infra.bean.entity")
-@EnableJpaRepositories(basePackages = "com.edu.admin.infra.repositories")
 public class AdminAdapterApplication {
 
     public static void main(String[] args) {
